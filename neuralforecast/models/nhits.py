@@ -268,7 +268,7 @@ class NHITS(BaseWindows):
         start_padding_enabled=False,
         step_size: int = 1,
         scaler_type: str = "identity",
-        random_seed: int = 1,
+        random_seed: int = np.random.randint(1, 1000),
         num_workers_loader=0,
         drop_last_loader=False,
         optimizer=None,
